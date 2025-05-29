@@ -25,9 +25,9 @@ Hints:
  */
 
 import { createRoot } from "react-dom/client";
-import Header from "./Header.jsx";
-import Main from "./MainContent.jsx";
-import Footer from "./Footer.jsx";
+import Header from "./components/Header.jsx";
+import Main from "./components/MainContent.jsx";
+import Footer from "./components/Footer.jsx";
 import "./index.css";
 const root = createRoot(document.getElementById("root"));
 root.render(
