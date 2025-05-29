@@ -3,7 +3,7 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <img src={reactLogo} alt="React Logo"  />
+        <img src={reactLogo} alt="React Logo" />
         <span>ReactFacts</span>
       </nav>
     </header>
