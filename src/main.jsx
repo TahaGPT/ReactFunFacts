@@ -1,6 +1,6 @@
 // import { StrictMode } from 'react'
 // import { createRoot } from 'react-dom/client'
-import "./index.css";
+// import "./index.css";
 // import App from './App.jsx'
 
 // createRoot(document.getElementById('root')).render(
@@ -25,17 +25,15 @@ Hints:
  */
 
 import { createRoot } from "react-dom/client";
-import reactLogo from "./assets/react.svg";
+import Header from "./Header.jsx";
+import Main from "./MainContent.jsx";
+import Footer from "./Footer.jsx";
+import "./index.css";
 const root = createRoot(document.getElementById("root"));
 root.render(
-  <main>
-    <img src={reactLogo} width="40px" />
-    <h1>Fun Facts about React</h1>
-    <ul>
-      <li>Was first released in 2013</li>
-      <li>Was originally created by John Walke</li>
-      <li>Is maintained by Meta</li>
-      <li>Powers thouands of Interprise apps including react apps</li>
-    </ul>
-  </main>
+  <>
+    <Header />
+    <Main />
+    <Footer />
+  </>
 );
